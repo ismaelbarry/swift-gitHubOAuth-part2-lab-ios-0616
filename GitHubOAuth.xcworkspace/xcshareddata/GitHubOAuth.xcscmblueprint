@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "24EB576153D05F4345625906EA03009DEFF9C576",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "88F3E7BA115E17BED18B698D3556B91AB0315CB0" : 0,
+    "24EB576153D05F4345625906EA03009DEFF9C576" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "E278AC7D-D91F-459F-A094-330A70D953B9",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "88F3E7BA115E17BED18B698D3556B91AB0315CB0" : "swift-gitHubOAuth-part1-lab-ios-0616\/",
+    "24EB576153D05F4345625906EA03009DEFF9C576" : "swift-gitHubOAuth-part2-lab-ios-0616\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "GitHubOAuth",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "GitHubOAuth.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:ismaelbarry\/swift-gitHubOAuth-part2-lab-ios-0616.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "24EB576153D05F4345625906EA03009DEFF9C576"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:ismaelbarry\/swift-gitHubOAuth-part1-lab-ios-0616.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "88F3E7BA115E17BED18B698D3556B91AB0315CB0"
+    }
+  ]
+}

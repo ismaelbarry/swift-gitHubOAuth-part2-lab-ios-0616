@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2CE555691D53D8C7001F6871 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE555681D53D8C7001F6871 /* LoginViewController.swift */; };
 		5DFFDD5F1D4EDE6C00CD3CB9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DFFDD5E1D4EDE6C00CD3CB9 /* AppDelegate.swift */; };
 		5DFFDD661D4EDE6C00CD3CB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DFFDD651D4EDE6C00CD3CB9 /* Assets.xcassets */; };
 		5DFFDD691D4EDE6C00CD3CB9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DFFDD671D4EDE6C00CD3CB9 /* LaunchScreen.storyboard */; };
@@ -20,12 +21,12 @@
 		5DFFDD861D4EEF0300CD3CB9 /* ReposTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DFFDD851D4EEF0300CD3CB9 /* ReposTableViewCell.swift */; };
 		5DFFDD891D4EEF0B00CD3CB9 /* Repo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DFFDD871D4EEF0B00CD3CB9 /* Repo.swift */; };
 		5DFFDD8A1D4EEF0B00CD3CB9 /* ReposDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DFFDD881D4EEF0B00CD3CB9 /* ReposDataStore.swift */; };
-		5DFFDD941D4FE13200CD3CB9 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DFFDD931D4FE13200CD3CB9 /* LoginViewController.swift */; };
 		A9048EDE09036FB95EBB9533 /* Pods_GitHubOAuth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47FC202E21397FD9B13D844C /* Pods_GitHubOAuth.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1149C8EA448CF5F7543ABA9C /* Pods-GitHubOAuth.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitHubOAuth.release.xcconfig"; path = "Pods/Target Support Files/Pods-GitHubOAuth/Pods-GitHubOAuth.release.xcconfig"; sourceTree = "<group>"; };
+		2CE555681D53D8C7001F6871 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		47FC202E21397FD9B13D844C /* Pods_GitHubOAuth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GitHubOAuth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DFFDD5B1D4EDE6C00CD3CB9 /* GitHubOAuth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitHubOAuth.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DFFDD5E1D4EDE6C00CD3CB9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -42,7 +43,6 @@
 		5DFFDD851D4EEF0300CD3CB9 /* ReposTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReposTableViewCell.swift; sourceTree = "<group>"; };
 		5DFFDD871D4EEF0B00CD3CB9 /* Repo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Repo.swift; sourceTree = "<group>"; };
 		5DFFDD881D4EEF0B00CD3CB9 /* ReposDataStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReposDataStore.swift; sourceTree = "<group>"; };
-		5DFFDD931D4FE13200CD3CB9 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		EB2B50EB458452493C8F696A /* Pods-GitHubOAuth.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitHubOAuth.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GitHubOAuth/Pods-GitHubOAuth.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -116,8 +116,8 @@
 		5DFFDD721D4EDEA400CD3CB9 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				2CE555681D53D8C7001F6871 /* LoginViewController.swift */,
 				5DFFDD831D4EEEF200CD3CB9 /* AppController.swift */,
-				5DFFDD931D4FE13200CD3CB9 /* LoginViewController.swift */,
 				5DFFDD7F1D4EEED500CD3CB9 /* ReposTableViewController.swift */,
 			);
 			name = Controllers;
@@ -287,7 +287,7 @@
 				5DFFDD8A1D4EEF0B00CD3CB9 /* ReposDataStore.swift in Sources */,
 				5DFFDD801D4EEED500CD3CB9 /* ReposTableViewController.swift in Sources */,
 				5DFFDD861D4EEF0300CD3CB9 /* ReposTableViewCell.swift in Sources */,
-				5DFFDD941D4FE13200CD3CB9 /* LoginViewController.swift in Sources */,
+				2CE555691D53D8C7001F6871 /* LoginViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
